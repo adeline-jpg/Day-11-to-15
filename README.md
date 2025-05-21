@@ -37,18 +37,18 @@ I've redone these projects so much to the point where I can actually remember th
     ```
     - global constants are usually formatted as ALL_CAPS! e.g. PI = 3.14 
 - No Block Scope! This means that variables created nested in other blocks of code e.g. for loops, if statements, while loops etc. don't get local scope. They are given function scope if they are within a function or global scope if they are not.
-``` javascript
-# Accessible anywhere
-my_global_var = 1
+  ``` javascript
+  # Accessible anywhere
+  my_global_var = 1
 
-def my_function():
-    # Only accessible within my_function()
-    my_local_var = 2
+  def my_function():
+      # Only accessible within my_function()
+      my_local_var = 2
     
-for _ in range(10):
-    # Accessible anywhere
-    my_block_var = 3
-```
+  for _ in range(10):
+      # Accessible anywhere
+      my_block_var = 3
+  ```
 ### Tackling a Problem 
 - Describe the problem
 - reproduce the bug
